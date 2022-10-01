@@ -1,16 +1,4 @@
 # robot_controller2
 
-A new Flutter project.
+<img width="1433" alt="Screen Shot 2022-10-01 at 09 48 56" src="https://user-images.githubusercontent.com/94110205/193380351-5923f1cd-0265-4d88-947d-ec0a55f9b4d2.png">
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
