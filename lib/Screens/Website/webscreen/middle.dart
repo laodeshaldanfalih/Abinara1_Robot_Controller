@@ -143,14 +143,23 @@ class _MiddleSideState extends State<MiddleSide> {
                 onPressed: () {
                   print('sending massage to database!');
                   setState(() {
-                    upLeftButton++;
-                    if (upLeftButton == 2) {
-                      upLeftButton = 0;
-                      upLeft = 70;
+                    // upLeftButton++;
+                    // if (upLeftButton == 2) {
+                    //   upLeftButton = 0;
+                    //   upLeft = 70;
+                    // } else {
+                    //   upLeft = 84;
+                    // }
+                    // refUL.set({'Upper Left': upLeft});
+
+                    forwardButton++;
+                    if (forwardButton == 2) {
+                      forwardButton = 0;
+                      forward = 70;
                     } else {
-                      upLeft = 84;
+                      forward = 76;
                     }
-                    refUL.set({'Upper Left': upLeft});
+                    refF.set({'Forward': forward});
                   });
                 },
               ),
@@ -184,14 +193,23 @@ class _MiddleSideState extends State<MiddleSide> {
               onPressed: () {
                 print('sending massage to database!');
                 setState(() {
-                  upRightButton++;
-                  if (upRightButton == 2) {
-                    upRightButton = 0;
-                    upRight = 70;
+                  // upRightButton++;
+                  // if (upRightButton == 2) {
+                  //   upRightButton = 0;
+                  //   upRight = 70;
+                  // } else {
+                  //   upRight = 84;
+                  // }
+                  // refUR.set({'Upper Right': upRight});
+
+                  forwardButton++;
+                  if (forwardButton == 2) {
+                    forwardButton = 0;
+                    forward = 70;
                   } else {
-                    upRight = 84;
+                    forward = 73;
                   }
-                  refUR.set({'Upper Right': upRight});
+                  refF.set({'Forward': forward});
                 });
               },
             ),
@@ -207,14 +225,23 @@ class _MiddleSideState extends State<MiddleSide> {
               onPressed: () {
                 print('sending massage to database!');
                 setState(() {
-                  leftButton++;
-                  if (leftButton == 2) {
-                    leftButton = 0;
-                    left = 70;
+                  // leftButton++;
+                  // if (leftButton == 2) {
+                  //   leftButton = 0;
+                  //   left = 70;
+                  // } else {
+                  //   left = 68;
+                  // }
+                  // refL.set({'Left': left});
+
+                  forwardButton++;
+                  if (forwardButton == 2) {
+                    forwardButton = 0;
+                    forward = 70;
                   } else {
-                    left = 68;
+                    forward = 68;
                   }
-                  refL.set({'Left': left});
+                  refF.set({'Forward': forward});
                 });
               },
             ),
@@ -235,14 +262,23 @@ class _MiddleSideState extends State<MiddleSide> {
               onPressed: () {
                 print('sending massage to database!');
                 setState(() {
-                  rightButton++;
-                  if (rightButton == 2) {
-                    rightButton = 0;
-                    right = 70;
+                  // rightButton++;
+                  // if (rightButton == 2) {
+                  //   rightButton = 0;
+                  //   right = 70;
+                  // } else {
+                  //   right = 66;
+                  // }
+                  // refR.set({'Right': right});
+
+                  forwardButton++;
+                  if (forwardButton == 2) {
+                    forwardButton = 0;
+                    forward = 70;
                   } else {
-                    right = 66;
+                    forward = 66;
                   }
-                  refR.set({'Right': right});
+                  refF.set({'Forward': forward});
                 });
               },
             ),
@@ -258,14 +294,23 @@ class _MiddleSideState extends State<MiddleSide> {
               onPressed: () {
                 print('sending massage to database!');
                 setState(() {
-                  downLeftButton++;
-                  if (downLeftButton == 2) {
-                    downLeftButton = 0;
-                    downLeft = 70;
+                  // downLeftButton++;
+                  // if (downLeftButton == 2) {
+                  //   downLeftButton = 0;
+                  //   downLeft = 70;
+                  // } else {
+                  //   downLeft = 84;
+                  // }
+                  // refDL.set({'Down Left': downLeft});
+
+                  forwardButton++;
+                  if (forwardButton == 2) {
+                    forwardButton = 0;
+                    forward = 70;
                   } else {
-                    downLeft = 84;
+                    forward = 75;
                   }
-                  refDL.set({'Down Left': downLeft});
+                  refF.set({'Forward': forward});
                 });
               },
             ),
@@ -278,14 +323,23 @@ class _MiddleSideState extends State<MiddleSide> {
               onPressed: () {
                 print('sending massage to database!');
                 setState(() {
-                  backwardButton++;
-                  if (backwardButton == 2) {
-                    backwardButton = 0;
-                    backward = 70;
+                  // backwardButton++;
+                  // if (backwardButton == 2) {
+                  //   backwardButton = 0;
+                  //   backward = 70;
+                  // } else {
+                  //   backward = 67;
+                  // }
+                  // refB.set({'Backward': backward});
+
+                  forwardButton++;
+                  if (forwardButton == 2) {
+                    forwardButton = 0;
+                    forward = 70;
                   } else {
-                    backward = 67;
+                    forward = 67;
                   }
-                  refB.set({'Backward': backward});
+                  refF.set({'Forward': forward});
                 });
               },
             ),
@@ -298,14 +352,23 @@ class _MiddleSideState extends State<MiddleSide> {
               onPressed: () {
                 print('sending massage to database!');
                 setState(() {
-                  downRightbutton++;
-                  if (downRightbutton == 2) {
-                    downRightbutton = 0;
-                    downRight = 70;
+                  // downRightbutton++;
+                  // if (downRightbutton == 2) {
+                  //   downRightbutton = 0;
+                  //   downRight = 70;
+                  // } else {
+                  //   downRight = 84;
+                  // }
+                  // refDR.set({'Down Right': downRight});
+
+                  forwardButton++;
+                  if (forwardButton == 2) {
+                    forwardButton = 0;
+                    forward = 70;
                   } else {
-                    downRight = 84;
+                    forward = 2;
                   }
-                  refDR.set({'Down Right': downRight});
+                  refF.set({'Forward': forward});
                 });
               },
             ),
